@@ -1,21 +1,15 @@
-FAKE TWITTER ACCOUNT DETECTION
+#FAKE TWITTER ACCOUNT DETECTION
 
 This project is aimed to detect fake Twitter accounts using machine learning techniques. We used Twitter API to collect data from Twitter, and then extracted features from every tweet to feed to the classifiers. After running several classifiers, we found that binary classification through the Support Vector Machine (SVM) is the most efficient way to detect fake Twitter accounts.
 
-Dependencies:
+##Dependencies:
 
 Python 3
 Scikit-learn
 Tweepy
 
 
-Installation:
-
-Clone the repository: git clone https://github.com/<username>/<repository>
-Install the dependencies: pip install -r requirements.txt
-
-
-Usage:
+##Usage:
 
 Set up a Twitter developer account and create a new app to obtain API credentials (consumer key, consumer secret, access token, and access token secret).
 Open config.py and enter your API credentials.
@@ -25,7 +19,7 @@ Run classification.py to run different classifiers and compare their performance
 
 
 
-Conclusion
+##Conclusion
 In this project, we have demonstrated that binary classification through the SVM is more efficient than through any other classifier in detecting fake Twitter accounts. By using machine learning techniques and Twitter API, we have built a framework that can be used to detect fake Twitter accounts in real-time.
 
 We hope that this project can be used as a starting point for further research in this field.
